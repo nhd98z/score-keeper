@@ -1,0 +1,30 @@
+body {
+  background: #FBFEF9;  
+}
+
+* {
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.btn{
+  background: #BF1363;
+  border-radius: 5px;
+  color: #ffffff;  
+  border: 0 none;
+  outline: 0 none;  
+  padding: 7px 10px;
+  transition: all .15s ease-in-out
+}
+
+.btn:hover {
+  background: #5b5f97;
+  box-shadow: 0 0 3px #5b5f97;
+}
+
+.btn:active {
+  background: #bababa;
+  box-shadow: 0 0 0 transparent;
+  transition: none;
+}
